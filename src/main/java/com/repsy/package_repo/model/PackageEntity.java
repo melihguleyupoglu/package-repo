@@ -47,4 +47,8 @@ public class PackageEntity {
         this.metaPath = metaPath;
     }
 
+    public void setAuthor(String author) {
+        this.author = author;
+    }
+
 }
