@@ -1,4 +1,4 @@
-package com.repsy.config;
+package com.repsy.package_repo.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
