@@ -1,9 +1,13 @@
 package com.repsy.package_repo.storage.object;
 
+import org.springframework.stereotype.Service;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.web.multipart.MultipartFile;
 
 import com.repsy.package_repo.storage.StorageStrategy;
 
+@Service
+@Qualifier("object-storage")
 public class ObjectStorageStrategy implements StorageStrategy {
 
     @Override
